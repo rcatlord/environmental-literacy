@@ -1,4 +1,4 @@
-# Cumulative CO<sub>2</sub> emissions, 2022
+# Cumulative CO<sub>2</sub> emissions
 
 <img src="plot.png" alt="Cumulative CO2 emissions" width="400"/>
 
