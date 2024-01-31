@@ -2,7 +2,7 @@
 # Source: Copernicus
 # URL: https://climate.copernicus.eu/global-climate-highlights-2023
 
-library(tidyverse) ; library(shadowtext) ; library(ggtext) ; library(ggrepel)
+library(tidyverse) ; library(lubridate) ; library(shadowtext) ; library(ggtext) ; library(ggrepel)
 
 df <- read_csv("https://climate.copernicus.eu/sites/default/files/custom-uploads/Global%20Climate%20Highlights%202023/fig3_GCH2023_PR_daily_global_temperature_increase_above_preindustrial_2023.csv",
          skip = 11) %>% 
