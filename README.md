@@ -10,4 +10,4 @@
 - <a href="vulnerability-and-readiness/notes.md" target="_blank">Vulnerability and readiness</a>
 
 ## Further resources
-- <a href="resources/index.md" target="_blank"></a>
+- <a href="resources/news.md" target="_blank">News services, newsletters and podcasts</a>
