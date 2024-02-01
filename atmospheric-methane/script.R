@@ -26,7 +26,7 @@ ggplot(df, aes(x = Year, y = Value, group = 1)) +
                      labels = comma) +
   labs(x = NULL, y = NULL,
        title = "Atmospheric methane (CH<sub>4</sub>)",
-       subtitle = "<span style = 'color:#757575;'>Annual global mean methane levels in air</span>",
+       subtitle = "<span style = 'color:#757575;'>Global average atmospheric abundance of methane, 1984-2022</span>",
        caption = "Source: NOAA") +
   theme_minimal(base_size = 14) +
   theme(plot.margin = unit(rep(1.5, 4), "cm"),

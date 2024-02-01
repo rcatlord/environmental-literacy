@@ -6,6 +6,9 @@
 - <a href="annual-co2-emissions/notes.md" target="_blank">Annual CO<sub>2</sub> emissions</a>
 - <a href="global-temperatures/notes.md" target="_blank">Global temperatures</a>
 
+### Oceans and ice
+- <a href="sea-level-rise/notes.md" target="_blank">Sea level rises</a>
+
 ### Biodiversity crisis
 - <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
 
