@@ -2,7 +2,7 @@
 # Source: Copernicus
 # URL: https://climate.copernicus.eu/global-climate-highlights-2023
 
-library(tidyverse) ; library(lubridate) ; library(shadowtext) ; library(ggtext) ; library(ggrepel)
+library(tidyverse) ; library(lubridate) ; library(ggtext) ; library(ggrepel)
 
 df <- read_csv("https://climate.copernicus.eu/sites/default/files/custom-uploads/Global%20Climate%20Highlights%202023/fig3_GCH2023_PR_daily_global_temperature_increase_above_preindustrial_2023.csv",
          skip = 11) %>% 
@@ -17,16 +17,13 @@ ggplot(df, aes(day_month, ano_pi, group = year)) +
   geom_line(colour = ifelse(df$year == 2023, "red", "#dddddd")) +
   geom_hline(yintercept = 0, linewidth = 0.8, linetype = 2, colour = "#333333") +
   geom_hline(yintercept = 1.5, linewidth = 0.8, linetype = 2, colour = "#333333") +
-  geom_shadowtext(aes(x = as.Date("2000-01-6"), y = 0.1),
-                  label = "Pre-industrial average", check_overlap = TRUE, hjust = 0,
-                  bg.colour = "#FFFFFF", colour = "#212121", size = 4) +
-  geom_shadowtext(aes(x = as.Date("2000-01-6"), y = 1.6),
-                  label = "1.5 degrees", check_overlap = TRUE, hjust = 0,
-                  bg.colour = "#FFFFFF", colour = "#212121", size = 4) +
-  geom_shadowtext(x = as.Date("2000-07-15"), y = 0.85, 
-                  label = "Each grey line\nrepresents a year\nbetween 1940 and 2022",
-                  check_overlap = TRUE, hjust = 0,
-                  bg.colour = "#FFFFFF", colour = "#212121", size = 4) +
+  annotate("text", x = as.Date("2000-01-6"), y = 0.1, 
+           label = "Pre-industrial average", fontface = "bold", hjust = 0) +
+  annotate("text", x = as.Date("2000-01-6"), y = 1.6, 
+           label = "1.5 degrees", fontface = "bold", hjust = 0) + 
+  annotate("text", x = as.Date("2000-07-15"), y = 0.85, 
+           label = "Each grey line\nrepresents a year\nbetween 1940 and 2022",
+           fontface = "bold", hjust = 0) +
   geom_curve(aes(x = as.Date("2000-07-10"), xend = as.Date("2000-06-01"), y = 0.85, yend = 0.95),
              colour = "#000000", curvature = -0.3, 
              arrow = arrow(ends = "last", length = unit(0.03, "npc"))) +
