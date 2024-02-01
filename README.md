@@ -2,6 +2,7 @@
 
 ### Greenhouse gases and temperature
 - <a href="atmospheric-co2/notes.md" target="_blank">Atmospheric CO<sub>2</sub> concentrations</a>
+- <a href="atmospheric-methane/notes.md" target="_blank">Atmospheric CH<sub>4</sub> concentrations</a>
 - <a href="annual-co2-emissions/notes.md" target="_blank">Annual CO<sub>2</sub> emissions</a>
 - <a href="global-temperatures/notes.md" target="_blank">Global temperatures</a>
 
