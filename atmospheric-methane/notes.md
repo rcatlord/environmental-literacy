@@ -9,4 +9,4 @@ Methane is one of the most potent greenhouse gases. It has around 83 times great
 Methane is created by animal production, particularly cows and sheep, released by fracking, thawing permafrost and rotting organic matter at landfill sites.
 
 ## Further reading
-- Hausfather, Z. (2022). Methane and Other Gases. In G. Thunberg (Eds), *The Climate Book* (pp. 53–6). Allen Lane.
+- Hausfather, Z. (2022). Methane and Other Gases. In G. Thunberg (Ed), *The Climate Book* (pp. 53–6). Allen Lane.

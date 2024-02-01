@@ -2,9 +2,7 @@
 
 <img src="plot.jpeg" alt="Cumulative CO2 emissions" width="400"/>
 
-The United States was responsible for 427 billion tonnes of CO<sub>2</sub> between 1750 and 2022 which is around 25% of historical emissions. China is the second largest contributor of cumulative CO<sub>2</sub> emissions.
-
-The United Kingdom was the first industrialised nation and has emitted 79 billion tonnes of CO<sub>2</sub> into the atmosphere since 1750. This is equivalent to 4.5% of global cumulative CO<sub>2</sub> emissions. 
+The United States was responsible for 427 billion tonnes of CO<sub>2</sub> between 1750 and 2022 which is around 25% of historical emissions. China is the second largest contributor of cumulative CO<sub>2</sub> emissions. The United Kingdom was the first industrialised nation and has emitted 79 billion tonnes of CO<sub>2</sub> into the atmosphere since 1750. This is equivalent to 4.5% of global cumulative CO<sub>2</sub> emissions. 
 
 This historical legacy of CO<sub>2</sub> emissions is important because carbon dioxide stays in the atmosphere for [hundreds of years](https://climate.nasa.gov/news/2915/the-atmosphere-getting-a-handle-on-carbon-dioxide/).
 
