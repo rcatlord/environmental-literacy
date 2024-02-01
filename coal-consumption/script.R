@@ -42,13 +42,14 @@ df <- left_join(coal, oil, by = "Year") %>%
   pivot_longer(-Year, names_to = "Source", values_to = "Value") 
 
 ggplot(df, aes(Year, Value, group = Source, colour = Source)) +
-  geom_line(linewidth = 1) +
+  geom_line(linewidth = 1.5) +
   geom_textline(aes(x = Year, y = Value, group = Source, colour = Source, label = Source),
                 vjust = -0.5, hjust = 0.5) +
   annotate("text", x = as.Date("1965-01-01"), y = 210, label = "Exajoules", size = 3, hjust = 0.7) +
   scale_x_date(expand = expansion(), date_breaks = "5 years", date_labels = "%Y") + 
   scale_colour_manual(values = c("Oil" = "#000000", "Coal" = "#D55E00", "Gas" = "#E69F00", 
                                  "Solar and wind" = "#0072B2"), guide = "none") +
+  scale_y_continuous(expand = expansion()) +
   labs(x = NULL, y = NULL,
        title = "Global coal consumption is near record levels",
        subtitle = "<span style = 'color:#757575;'>Energy consumption, 1965-2022</span>",
@@ -62,6 +63,6 @@ ggplot(df, aes(Year, Value, group = Source, colour = Source)) +
         plot.title = element_text(face = "bold", size = 18),
         plot.subtitle = element_markdown(margin = margin(b = 25)),
         plot.caption = element_text(size = rel(0.8), colour = "#707071", hjust = 0, margin = margin(t = 15))) +
-  coord_cartesian(clip = "off")
+  coord_cartesian(clip = "off") 
 
 ggsave("plot.jpeg", scale = 1, dpi = 300) 
