@@ -7,7 +7,10 @@
 - <a href="global-temperatures/notes.md" target="_blank">Global temperatures</a>
 
 ### Oceans and ice
-- <a href="sea-level-rise/notes.md" target="_blank">Sea level rises</a>
+- <a href="sea-level-rise/notes.md" target="_blank">Sea level rise</a>
+
+### Energy
+- <a href="coal-consumption/notes.md" target="_blank">Coal consumption</a>
 
 ### Biodiversity crisis
 - <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
