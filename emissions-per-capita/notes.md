@@ -1,6 +1,6 @@
 # Carbon dioxide emissions per capita, 2022
 
-<img src="plot.png" alt="CO2 per capita" width="400"/>
+<img src="plot.jpeg" alt="CO2 per capita" width="400"/>
 
 On average, 4.7 tons of CO₂ were emitted per person in 2022. However, this average masks wide variation between countries. Africa produced about 1 tonne of carbon dioxide emissions per person in 2022 whilst Qatar produced 37.6 tonnes per capita. Countries of the Global North typically have much higher per capita emissions than developing countries in the Global South. 
 

@@ -40,4 +40,4 @@ ggplot(df, aes(x = Year, y = Value, group = 1)) +
             hjust = -0.3, size = 3, fontface = "bold") +
   coord_cartesian(clip = "off")
 
-ggsave("plot.png", scale = 1, dpi = 300) 
+ggsave("plot.jpeg", scale = 1, dpi = 300) 

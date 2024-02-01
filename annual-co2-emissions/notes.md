@@ -1,6 +1,6 @@
 # Annual CO₂ emissions
 
-<img src="plot.png" alt="Annual CO₂ emissions" width="400"/>
+<img src="plot.jpeg" alt="Annual CO₂ emissions" width="400"/>
 
 Global CO<sub>2</sub> emissions have grown sharply since the 1950s and now stand at 37 billion tonnes. Levels have slowed recently but not yet peaked.
 

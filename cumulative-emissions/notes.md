@@ -1,6 +1,6 @@
 # Cumulative CO<sub>2</sub> emissions
 
-<img src="plot.png" alt="Cumulative CO2 emissions" width="400"/>
+<img src="plot.jpeg" alt="Cumulative CO2 emissions" width="400"/>
 
 The United States was responsible for 427 billion tonnes of CO<sub>2</sub> between 1750 and 2022 which is around 25% of historical emissions. China is the second largest contributor of cumulative CO<sub>2</sub> emissions.
 

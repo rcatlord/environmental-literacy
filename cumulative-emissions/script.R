@@ -35,4 +35,4 @@ ggplot(df, aes(Value, fct_reorder(Entity, Value))) +
         plot.caption = element_text(size = rel(0.8), colour = "#707071", hjust = 0)) +
   coord_cartesian(clip = "off")
 
-ggsave("plot.png", scale = 1, dpi = 300) 
+ggsave("plot.jpeg", scale = 1, dpi = 300) 

@@ -2,7 +2,7 @@
 # Source: Global Carbon Project
 # URL: https://globalcarbonatlas.org/emissions/carbon-emissions/
 
-library(tidyverse) ; library(countrycode) ; library(rnaturalearth) ; library(sf) ; library(classInt)
+library(tidyverse) ; library(countrycode) ; library(rnaturalearth) ; library(sf) ; library(classInt) ; library(ggtext)
 
 df <- read_csv("data/export_emissions.csv", skip = 1, col_types = cols(.default = "c")) %>% 
   slice(1) %>% 
@@ -49,4 +49,4 @@ ggplot() +
                              override.aes = list(shape = 21, size = 3))) +
   coord_sf(crs = "+proj=robin +lat_0=0 +lon_0=0 +x0=0 +y0=0")
 
-ggsave("plot.png", scale = 1, dpi = 300) 
+ggsave("plot.jpeg", scale = 1, dpi = 300) 

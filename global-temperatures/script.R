@@ -45,4 +45,4 @@ ggplot(df, aes(day_month, ano_pi, group = year)) +
         plot.subtitle = element_markdown(margin = margin(b = 25)),
         plot.caption = element_text(size = rel(0.8), colour = "#707071", hjust = 0, margin = margin(t = 20)))
 
-ggsave("plot.png", scale = 1, dpi = 300) 
+ggsave("plot.jpeg", scale = 1, dpi = 300) 
