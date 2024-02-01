@@ -6,7 +6,7 @@
 - <a href="global-temperatures/notes.md" target="_blank">Global temperatures</a>
 
 ### Biodiversity crisis
-- <a href="forest-loss.notesmd" target="_blank">Forest loss</a>
+- <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
 
 ### Climate justice
 - <a href="cumulative-emissions/notes.md" target="_blank">Cumulative emissions</a>
