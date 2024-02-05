@@ -1,0 +1,35 @@
+Percentile,Country,Value,Group
+Full population,World,6.6,Average
+Bottom 50%,World,1.6,Income group
+Middle 40%,World,6.6,Income group
+Top 10%,World,31,Income group
+Full population,United States,21.1,Average
+Bottom 50%,United States,9.7,Income group
+Middle 40%,United States,22,Income group
+Top 10%,United States,74.7,Income group
+Top 1%,United States,269.3,Income group
+Full population,China,8,Average
+Bottom 50%,China,3,Income group
+Middle 40%,China,7.2,Income group
+Top 10%,China,36.4,Income group
+Top 1%,China,138.9,Income group
+Full population,Brazil,4.6,Average
+Bottom 50%,Brazil,2.2,Income group
+Middle 40%,Brazil,4.3,Income group
+Top 10%,Brazil,17.7,Income group
+Top 1%,Brazil,72.1,Income group
+Full population,India,2.2,Average
+Bottom 50%,India,1,Income group
+Middle 40%,India,2,Income group
+Top 10%,India,8.8,Income group
+Top 1%,India,32.4,Income group
+Full population,United Kingdom,9.9,Average
+Bottom 50%,United Kingdom,5.6,Income group
+Middle 40%,United Kingdom,10.9,Income group
+Top 10%,United Kingdom,27.7,Income group
+Top 1%,United Kingdom,76.6,Income group
+Full population,Nigeria,1.6,Average
+Bottom 50%,Nigeria,0.9,Income group
+Middle 40%,Nigeria,1.8,Income group
+Top 10%,Nigeria,4.4,Income group
+Top 1%,Nigeria,9.2,Income group
