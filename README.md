@@ -12,6 +12,9 @@
 ### Energy
 - <a href="coal-consumption/notes.md" target="_blank">Coal consumption</a>
 
+### Agriculture
+- <a href="ruminant-livestock/notes.md" target="_blank">Ruminant livestock</a>
+
 ### Biodiversity crisis
 - <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
 
