@@ -1,0 +1,51 @@
+Country,Response,Value
+Philippines,Extremely,49
+India,Extremely,35
+Portugal,Extremely,30
+Brazil,Extremely,29
+Australia,Extremely,25
+Nigeria,Extremely,22
+UK,Extremely,20
+USA,Extremely,19
+France,Extremely,18
+Finland,Extremely,18
+Philippines,Very,35
+India,Very,33
+Portugal,Very,35
+Brazil,Very,38
+Australia,Very,28
+Nigeria,Very,29
+UK,Very,29
+USA,Very,27
+France,Very,40
+Finland,Very,26
+Philippines,Moderately,10
+India,Moderately,16
+Portugal,Moderately,21
+Brazil,Moderately,22
+Australia,Moderately,29
+Nigeria,Moderately,27
+UK,Moderately,31
+USA,Moderately,29
+France,Moderately,28
+Finland,Moderately,33
+Philippines,A little,4
+India,A little,10
+Portugal,A little,9
+Brazil,A little,8
+Australia,A little,10
+Nigeria,A little,18
+UK,A little,12
+USA,A little,14
+France,A little,8
+Finland,A little,14
+Philippines,Not worried,1
+India,Not worried,4
+Portugal,Not worried,3
+Brazil,Not worried,3
+Australia,Not worried,6
+Nigeria,Not worried,3
+UK,Not worried,6
+USA,Not worried,9
+France,Not worried,4
+Finland,Not worried,8
