@@ -27,6 +27,9 @@
 - <a href="carbon-inequality/notes.md" target="_blank">Carbon inequality</a>
 - <a href="vulnerability-and-readiness/notes.md" target="_blank">Vulnerability and readiness</a>
 
+### Projections
+- <a href="emissions-gap/notes.md" target="_blank">Emissions gap</a>
+
 ### UK
 - <a href="uk/sectors/plot.jpeg" target="_blank">GHG emissions by sector</a>
 
