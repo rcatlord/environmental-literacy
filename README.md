@@ -18,11 +18,17 @@
 ### Biodiversity crisis
 - <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
 
+### Climate anxiety
+- <a href="climate-anxiety/notes.md" target="_blank">Climate anxiety</a>
+
 ### Climate justice
 - <a href="cumulative-emissions/notes.md" target="_blank">Cumulative emissions</a>
 - <a href="emissions-per-capita/notes.md" target="_blank">CO<sub>2</sub> emissions per capita</a>
 - <a href="carbon-inequality/notes.md" target="_blank">Carbon inequality</a>
 - <a href="vulnerability-and-readiness/notes.md" target="_blank">Vulnerability and readiness</a>
+
+### UK
+- <a href="uk/sector/notes.md" target="_blank">GHG emissions by sector</a>
 
 ### Further resources
 - <a href="resources/news.md" target="_blank">News services, newsletters and podcasts</a>
