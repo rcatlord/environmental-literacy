@@ -28,7 +28,7 @@
 - <a href="vulnerability-and-readiness/notes.md" target="_blank">Vulnerability and readiness</a>
 
 ### UK
-- <a href="uk/sector/plot.jpeg" target="_blank">GHG emissions by sector</a>
+- <a href="uk/sectors/plot.jpeg" target="_blank">GHG emissions by sector</a>
 
 ### Further resources
 - <a href="resources/news.md" target="_blank">News services, newsletters and podcasts</a>
