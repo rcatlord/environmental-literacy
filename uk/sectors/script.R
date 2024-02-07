@@ -21,7 +21,7 @@ ggplot(df, aes(area = Value, fill = Sector,
   geom_treemap_text(place = "topleft", colour = "#FFFFFF", fontface = "bold", size = 12, reflow = T) +
   scale_fill_manual(values = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7")) +
   labs(x = NULL, y = NULL,
-       title = "Domestic transport emits over a quarter of emissions",
+       title = "Domestic transport responsible for over a quarter of emissions",
        subtitle = "<span style = 'color:#757575;'>Territorial UK greenhouse gas emissions by sector, 2022</span>",
        caption = "Source: DESNZ") +
   theme(plot.margin = unit(rep(0.5,4), "cm"),
