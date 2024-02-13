@@ -4,6 +4,7 @@
 - [Inside Climate News](https://insideclimatenews.org/)
 - [Carbon Brief](https://www.carbonbrief.org/)
 - [Yale E360](https://e360.yale.edu/)
+- [The Guardian](https://www.theguardian.com/uk/environment)
 
 ## Newsletters
 - [The Crucial Years](https://billmckibben.substack.com/) by Bill McKibben
