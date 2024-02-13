@@ -1,0 +1,113 @@
+---
+pagetitle: "Environmental literacy"
+output: 
+  learnr::tutorial:
+    theme: "united"
+    css: "css/styles.css"
+    progressive: true
+    allow_skip: true
+    df_print: default
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+library(knitr) ; library(learnr) ; library(sortable) ; library(pixture)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Climate change
+
+### Introduction
+
+> The scientific evidence is unequivocal: climate change is a threat to human well-being and the health of the planet. Any further delay in concerted global action will miss a brief and rapidly closing window to secure a liveable future.
+
+<p style='font-size:12px;'>Source: <a href="https://www.ipcc.ch/report/ar6/wg2/about/frequently-asked-questions/keyfaq6/" target="_blank">IPCC WGII Sixth Assessment Report</a></p>
+
+### The greenhouse effect
+Energy from the sun passes through the Earth's atmosphere and warms the surface of the planet or bounces back into space. The warmth emitted from the surface, infrared radiation, is absorbed by greenhouse gases in the atmosphere which slow the release of energy back into space. This natural process ensures that temperatures on the Earth are sufficient to sustain life. Without the atmosphere the heat radiating from the surface would be lost into space and the Earth's average temperature would be about 33°C cooler or about -18°C.
+
+```{r, out.width="60%"}
+include_graphics(rep("images/greenhouse_effect.gif"))
+```
+<p style='font-size:12px;'>Source: <a href="https://climate.nasa.gov/causes" target="_blank">NASA/JPL-Caltech</a></p>
+
+### Greenhouse gases
+There are 3 main greenhouse gases: carbon dioxide (CO<sub>2</sub>), methane (CH<sub>4</sub>), and nitrous oxide (N<sub>2</sub>O). The heat-trapping abilities of these greenhouse gases are measured using an index called the Global Warming Potential (GWP). The GWP of each greenhouse gas is relative to carbon dioxide which is used as a reference point. For example, methane has a GWP over 100 years (GWP<sub>100</sub>) of 30. This means that measured over 100 years one tonne of methane can trap about 27-30 times the heat of 1 tonne of carbon dioxide.
+
+|Name |Chemical formula |GWP(<sub>20</sub>) |GWP(<sub>100</sub>) | 
+|:---- |:---- |:---- |:---- |
+|Carbon dioxide |CO<sub>2</sub> |1 |1  |
+|Methane |CH<sub>4</sub> |80 |27-30 |
+|Nitrous oxide |N<sub>2</sub>O |273 |273 | 
+
+<p style='font-size:12px;'>Source: <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter07.pdf" target="_blank">IPCC AR6, WG1, Chapter 7, Table 7.15</a></p>
+
+Methane therefore absorbs much more energy than carbon dioxide. However, the average lifetime of methane in the atmosphere is about 10 years. Compare that with carbon dioxide which can last for thousands of years. Nitrous oxide can remain in the atmosphere for more than 100 years, on average.
+
+<div class = "box">
+In 1856, Eunice Foote (1819-1888) discovered the capacity of carbon dioxide and water vapour to absorb heat. Three years later, John Tyndall (1822-1893) showed that atmospheric gases absorb infrared radiation. Independently they discovered the 'greenhouse effect'.
+</div>
+
+### Global warming
+The amount of carbon dioxide and other greenhouse gases in the atmosphere has increased rapidly since the start of the Industrial Revolution in 1750. Pre-industrial levels of CO<sub>2</sub> were around 280 parts per million (ppm). Today they are over 50% higher. The latest atmospheric levels recorded at the [Mauna Loa Observatory](https://gml.noaa.gov/ccgg/trends/) in Hawaii are 422 ppm (December 2023). These concentrations are higher than at any point in the last 800,000 years.
+
+```{r, out.width="60%"}
+include_graphics(rep("images/co2_geological.jpg"))
+```
+<p style='font-size:12px;'>Source: <a href="https://climate.nasa.gov/climate_resources/24/graphic-the-relentless-rise-of-carbon-dioxide" target="_blank">NASA</a></p>
+
+The concentration of carbon dioxide in the atmosphere is directly related to changes in global temperatures. Ice core measurements from Antarctica show that carbon dioxide levels have tracked temperature changes through ice ages and interglacials.
+
+```{r, out.width="60%"}
+include_graphics(rep("images/co2_and_temperature_geological.png"))
+```
+<p style='font-size:12px;'>Source: <a href="https://www.ncei.noaa.gov/news/climate-change-context-paleoclimate" target="_blank">NOAA</a></p>
+
+The more greenhouse gases there are in the atmosphere the more they act like a blanket trapping radiant heat.
+
+### Quiz
+
+``` {r gwp}
+options <- c("Methane","Carbon dioxide","Nitrous oxide")
+
+question_rank(
+  "Sort these greenhouse gases by their global warming potential:",
+  answer(options, correct = TRUE),
+  incorrect = "Not quite, have another go!",
+  allow_retry = TRUE
+)
+```
+
+```{r greehouse_gases}
+question("Which of the following gases is NOT a greenhouse gas?",
+         answer("Carbon dioxide"),
+         answer("Methane"),
+         answer("Nitrogen", correct = TRUE),
+         answer("Nitrous oxide"),
+         answer("Water vapour"),
+         incorrect = "Not quite, have another go!",
+         allow_retry = TRUE,
+         random_answer_order = TRUE)
+```
+
+``` {r lifetime}
+question("What is the average lifetime of carbon dioxide in the atmosphere?",
+         answer("About a decade"),
+         answer("Hundreds to thousands of years", correct = TRUE),
+         answer("About 110 years"),
+         answer("About 52 to 93 years"),
+         incorrect = "Not quite, have another go!",
+         allow_retry = TRUE,
+         random_answer_order = TRUE)
+# https://climate.nasa.gov/climate_resources/345/graphic-major-greenhouse-gas-sources-lifespans-and-possible-added-heat/?s=09
+```
+
+### Impacts
+
+## Biodiversity loss
+
+## Air pollution
+
+## Further reading
+
+## Glossary

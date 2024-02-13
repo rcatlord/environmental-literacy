@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.inline-image{
+  height: 1em;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #323132;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12;
+}
+
+.tutorialTitle {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p.caption {
+  font-size: 0.8em;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.alt {
+    font-size: 1em;
+}
+
+a {
+    color: #0064C8;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #0064C8;
+    text-decoration: underline;
+}
+
+.topicsList .topic {
+  background-color: white;
+  line-height: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #323132;
+}
+
+.nav a:hover {
+  color: #323132;
+}
+
+/* Start over button */
+.topicsFooter .resetButton {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    opacity: .7;
+}
+
+/* Panels */
+.panel, pre {
+  background-color: #E8EFF4;
+  border-radius: 0;
+  border-color: #e0e0e0;
+  color: #206095;
+  font-size: 16px;
+}
+
+
+/* Selected topic */
+.topicsList .topic.current {
+    background-color: #DEE7EF;
+    color: #2F4F4F;
+    border: 0;
+}
+
+.topicsList .topic:hover {
+    background-color: #d5dd56;
+    color: white;
+    border: 0;
+}
+
+/* Questions */
+
+.tutorial-question-container {
+  background-color: #FFFFFF;
+  color: #323132;
+}
+
+.rank-list-title, .control-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #323132;
+}
+
+#rank-list-gwp-answer {
+  border: 0;
+  padding-left: 0px;
+}
+
+div.box { 
+  background-color:#f0f0f0; 
+  border-radius: 5px; 
+  padding: 20px;
+}
