@@ -1,25 +1,37 @@
-<div style="display: flex; flex-direction: row;">
-    <img src="atmospheric-co2/plot.jpeg" width="250" />
-    <img src="atmospheric-methane/plot.jpeg" width="250" />
-    <img src="annual-co2-emissions/plot.jpeg" width="250" />
-</div>
-<div style="display: flex; flex-direction: row;">
-    <img src="global-temperatures/plot.jpeg" width="250" />
-    <img src="sea-level-rise/plot.jpeg" width="250" />
-    <img src="coal-consumption/plot.jpeg" width="250" />
-</div>
-<div style="display: flex; flex-direction: row;">
-    <img src="ruminant-livestock/plot.jpeg" width="250" />
-    <img src="forest-loss/plot.jpeg" width="250" />
-    <img src="climate-anxiety/plot.jpeg" width="250" />
-</div>
-<div style="display: flex; flex-direction: row;">
-    <img src="cumulative-emissions/plot.jpeg" width="250" />
-    <img src="emissions-per-capita/plot.jpeg" width="250" />
-    <img src="carbon-inequality/plot.jpeg" width="250" />
-</div>
-<div style="display: flex; flex-direction: row;">
-    <img src="vulnerability-and-readiness/plot.jpeg" width="250" />
-    <img src="emissions-gap/plot.jpeg" width="250" />
-    <img src="uk/sectors/plot.jpeg" width="250" />
-</div>
+# Environmental literacy
+
+### Greenhouse gases and temperature
+- <a href="atmospheric-co2/notes.md" target="_blank">Atmospheric CO<sub>2</sub> concentrations</a>
+- <a href="atmospheric-methane/notes.md" target="_blank">Atmospheric CH<sub>4</sub> concentrations</a>
+- <a href="annual-co2-emissions/notes.md" target="_blank">Annual CO<sub>2</sub> emissions</a>
+- <a href="global-temperatures/notes.md" target="_blank">Global temperatures</a>
+
+### Oceans and ice
+- <a href="sea-level-rise/notes.md" target="_blank">Sea level rise</a>
+
+### Energy
+- <a href="coal-consumption/notes.md" target="_blank">Coal consumption</a>
+
+### Agriculture
+- <a href="ruminant-livestock/notes.md" target="_blank">Ruminant livestock</a>
+
+### Biodiversity crisis
+- <a href="forest-loss/notes.md" target="_blank">Forest loss</a>
+
+### Climate anxiety
+- <a href="climate-anxiety/notes.md" target="_blank">Climate anxiety</a>
+
+### Climate justice
+- <a href="cumulative-emissions/notes.md" target="_blank">Cumulative emissions</a>
+- <a href="emissions-per-capita/notes.md" target="_blank">CO<sub>2</sub> emissions per capita</a>
+- <a href="carbon-inequality/notes.md" target="_blank">Carbon inequality</a>
+- <a href="vulnerability-and-readiness/notes.md" target="_blank">Vulnerability and readiness</a>
+
+### Projections
+- <a href="emissions-gap/notes.md" target="_blank">Emissions gap</a>
+
+### UK
+- <a href="uk/sectors/plot.jpeg" target="_blank">GHG emissions by sector</a>
+
+### Further resources
+- <a href="resources/news.md" target="_blank">News services, newsletters and podcasts</a>
