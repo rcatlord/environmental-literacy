@@ -2,7 +2,7 @@
 # Source: Energy Institute
 # URL: https://www.energyinst.org/statistical-review
 
-library(tidyverse) ; library(httr) ; library(readxl) ; library(geomtextpath)
+library(tidyverse) ; library(httr) ; library(readxl) ; library(geomtextpath) ; library(ggtext)
 
 tmp <- tempfile(fileext = ".xlsx")
 GET(url = "https://www.energyinst.org/__data/assets/excel_doc/0007/1055545/EI-stats-review-all-data.xlsx", write_disk(tmp))

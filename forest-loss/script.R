@@ -24,7 +24,7 @@ ggplot(df, aes(x = Year, y = Value)) +
        subtitle = "<span style = 'color:#757575;'>Annual primary forest loss, 2001-2022</span>",
        caption = "Source: Global Forest Watch") +
   theme_minimal(base_size = 14) +
-  theme(plot.margin = unit(rep(1.5, 4), "cm"),
+  theme(plot.margin = unit(rep(0.5, 4), "cm"),
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank(),
         axis.line.x = element_line(colour = "#000000"),
