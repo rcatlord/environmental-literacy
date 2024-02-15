@@ -27,6 +27,6 @@ paths <- c(
 ```
 
 ```{r}
-pixgallery(paths, dim = "150px", gap = "20px", shuffle = TRUE)
+pixgallery(paths, dim = "200px", gap = "20px", shuffle = TRUE)
 ```
 
