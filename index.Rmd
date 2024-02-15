@@ -1,0 +1,32 @@
+---
+pagetitle: "Climate change in charts"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse) ; library(pixture)
+
+paths <- c(
+  "atmospheric-co2/plot.jpeg",
+  "atmospheric-methane/plot.jpeg",
+  "annual-co2-emissions/plot.jpeg",
+  "global-temperatures/plot.jpeg",
+  "sea-level-rise/plot.jpeg",
+  "coal-consumption/plot.jpeg",
+  "ruminant-livestock/plot.jpeg",
+  "forest-loss/plot.jpeg",
+  "climate-anxiety/plot.jpeg",
+  "cumulative-emissions/plot.jpeg",
+  "emissions-per-capita/plot.jpeg",
+  "carbon-inequality/plot.jpeg",
+  "vulnerability-and-readiness/plot.jpeg",
+  "emissions-gap/plot.jpeg",
+  "uk/sectors/plot.jpeg"
+)
+```
+
+```{r}
+pixgallery(paths, dim = "150px", gap = "20px", shuffle = TRUE)
+```
+
