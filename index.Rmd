@@ -22,7 +22,8 @@ paths <- c(
   "carbon-inequality/plot.jpeg",
   "vulnerability-and-readiness/plot.jpeg",
   "emissions-gap/plot.jpeg",
-  "uk/sectors/plot.jpeg"
+  "uk/sectors/plot.jpeg",
+  "uk/tree-planting/plot.jpeg"
 )
 ```
 
