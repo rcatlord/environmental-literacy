@@ -29,7 +29,7 @@ ggplot(df, aes(x = Year, y = Value, group = 1)) +
        subtitle = "<span style = 'color:#757575;'>Global average atmospheric abundance of methane, 1984-2022</span>",
        caption = "Source: NOAA") +
   theme_minimal(base_size = 14) +
-  theme(plot.margin = unit(rep(0.5, 4), "cm"),
+  theme(plot.margin = unit(c(0.5,1.5,0.5,0.5), "cm"),
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank(),
         axis.line.x = element_line(colour = "#000000"),

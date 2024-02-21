@@ -24,7 +24,7 @@ ggplot(df, aes(x = date, y = average, group = 1)) +
        tag = "Chart baseline is 280ppm - the preindustrial average",
        caption = "Source: NOAA") +
   theme_minimal(base_size = 14) +
-  theme(plot.margin = unit(c(0.5,3,1,0.5), "cm"),
+  theme(plot.margin = unit(c(0.5,1.5,0.5,0.5), "cm"),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.line.x = element_line(colour = "#000000"),

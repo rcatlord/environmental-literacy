@@ -23,7 +23,7 @@ ggplot(df, aes(x = Year, y = Value, group = 1)) +
        subtitle = "<span style = 'color:#757575;'>Annual global CO<sub>2</sub> emissions from fossil fuels and industry, 1750-2022</span>",
        caption = "Source: Our World in Data") +
   theme_minimal(base_size = 12) +
-  theme(plot.margin = unit(c(1.5,2,1.5,1.5), "cm"),
+  theme(plot.margin = unit(c(0.5,2,0.5,0.5), "cm"),
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank(),
         axis.line.x = element_line(colour = "#000000"),

@@ -24,7 +24,7 @@ ggplot(df, aes(Value, fct_rev(Country))) +
        caption = "Source: Chancel et al. (2022)",
        colour = NULL) +
   theme_minimal(base_size = 14) +
-  theme(plot.margin = unit(rep(1.5, 4), "cm"),
+  theme(plot.margin = unit(rep(0.5, 4), "cm"),
         panel.spacing = unit(2, "lines"),
         panel.grid.major.x = element_blank(),
         panel.grid.minor = element_blank(),
