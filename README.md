@@ -31,8 +31,10 @@
 - <a href="emissions-gap/notes.md" target="_blank">Emissions gap</a>
 
 ### UK
+- <a href="uk/temperatur/plot.jpeg" target="_blank">Temperature</a>
 - <a href="uk/sectors/plot.jpeg" target="_blank">GHG emissions by sector</a>
 - <a href="uk/sectors-over-time/plot.jpeg" target="_blank">GHG emissions by sector over time</a>
+- <a href="uk/surface-transport/plot.jpeg" target="_blank">Surface transport</a>
 - <a href="uk/tree-planting/plot.jpeg" target="_blank">Tree planting rates</a>
 
 ### Further resources
