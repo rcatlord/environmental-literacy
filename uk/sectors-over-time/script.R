@@ -19,6 +19,7 @@ ggplot(df, aes(x = Year, y = Value)) +
   geom_text(data = filter(df, Year == max(Year)),
             aes(label = Sector, colour = Sector, vjust = place),
             hjust = 0, nudge_y = 3, fontface = "bold") +
+  annotate("text", x = as.Date("1990-01-01"), y = 215, label = expression("Mt" * CO[2] * "e"), size = 3, hjust = 1) +
   scale_x_date(expand = expansion(), date_breaks = "5 years", date_labels = "%Y") + 
   scale_y_continuous(expand = expansion()) +
   scale_colour_manual(values = c("#E69F00","#56B4E9","#009E73","#F0E442","#0072B2","#D55E00","#CC79A7","#000000")) +
