@@ -32,6 +32,7 @@
 
 ### UK
 - <a href="uk/sectors/plot.jpeg" target="_blank">GHG emissions by sector</a>
+- <a href="uk/sectors-over-time/plot.jpeg" target="_blank">GHG emissions by sector over time</a>
 - <a href="uk/tree-planting/plot.jpeg" target="_blank">Tree planting rates</a>
 
 ### Further resources
