@@ -4,7 +4,7 @@
 
 library(tidyverse) ; library(RColorBrewer)
 
-df <- read_csv("data.csv") %>% 
+df <- read_csv("data/data.csv") %>% 
   mutate(Year = ymd(Year, truncated = 2L))
 
 ggplot(df, aes(x = Year, y = 1, fill = `Temperature Annomaly (°C)`)) +
