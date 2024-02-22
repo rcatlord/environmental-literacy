@@ -23,6 +23,7 @@ paths <- c(
   "vulnerability-and-readiness/plot.jpeg",
   "emissions-gap/plot.jpeg",
   "uk/sectors/plot.jpeg",
+  "uk/sectors-over-time/plot.jpeg",
   "uk/tree-planting/plot.jpeg"
 )
 ```
