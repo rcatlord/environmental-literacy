@@ -38,7 +38,7 @@ ggplot(df, aes(Year, Value, group = Mode, fill = Mode)) +
                date_labels = "%Y") + 
   scale_y_continuous(expand = expansion(), breaks = seq(0,140,20)) +
   labs(x = NULL, y = NULL,
-       title = "Cars emits the majority of emissions",
+       title = "Cars emit the majority of emissions",
        subtitle = "<span style = 'color:#757575;'>Surface transport emissions, UK, 1990-2022</span>",
        caption = "Source: DESNZ",
        fill = NULL) +
