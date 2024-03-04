@@ -2,11 +2,10 @@
 pagetitle: "Environmental literacy"
 output: 
   learnr::tutorial:
-    theme: "united"
+    theme: united
     css: "css/styles.css"
     progressive: true
     allow_skip: true
-    df_print: default
 runtime: shiny_prerendered
 ---
 
@@ -14,6 +13,10 @@ runtime: shiny_prerendered
 library(knitr) ; library(learnr) ; library(sortable) ; library(pixture)
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Introduction
+
+This interactive tutorial covers the three environmental crises: climate change, biodiversity loss and pollution.
 
 ## Climate change
 
@@ -102,11 +105,11 @@ question("What is the average lifetime of carbon dioxide in the atmosphere?",
 # https://climate.nasa.gov/climate_resources/345/graphic-major-greenhouse-gas-sources-lifespans-and-possible-added-heat/?s=09
 ```
 
-### Impacts
-
 ## Biodiversity loss
 
-## Air pollution
+## Pollution
+
+## What you can do
 
 ## Further reading
 
