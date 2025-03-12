@@ -1,0 +1,64 @@
+---
+pagetitle: "Environmental literacy"
+format:
+   html: 
+    page-layout: article
+    self-contained: true
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+library(tidyverse) ; library(pixture)
+
+paths <- c(
+  "atmospheric-co2/plot.jpeg",
+  "atmospheric-methane/plot.jpeg",
+  "annual-co2-emissions/plot.jpeg",
+  "global-temperatures/plot.jpeg",
+  "sea-level-rise/plot.jpeg",
+  "coal-consumption/plot.jpeg",
+  "ruminant-livestock/plot.jpeg",
+  "forest-loss/plot.jpeg",
+  "climate-anxiety/plot.jpeg",
+  "cumulative-emissions/plot.jpeg",
+  "emissions-per-capita/plot.jpeg",
+  "carbon-inequality/plot.jpeg",
+  "vulnerability-and-readiness/plot.jpeg",
+  "emissions-gap/plot.jpeg",
+  "uk/temperature/plot.jpeg",
+  "uk/sectors/plot.jpeg",
+  "uk/sectors-over-time/plot.jpeg",
+  "uk/surface-transport/plot.jpeg",
+  "uk/tree-planting/plot.jpeg"
+)
+
+captions <- c(
+  "Atmospheric CO<sub>2</sub>",
+  "Atmospheric methane",
+  "Annual CO<sub>2</sub> emissions",
+  "Global temperatures",
+  "Sea level rise",
+  "Coal consumption",
+  "Ruminant livestock",
+  "Forest loss",
+  "Climate anxiety",
+  "Cumulative emissions",
+  "Emissions per capita",
+  "Carbon inequality",
+  "Vulnerability and readiness",
+  "Emissions gap",
+  "UK temperature",
+  "UK sectors",
+  "UK sectors over time",
+  "UK surface-transport",
+  "UK tree planting"
+)
+```
+
+```{r}
+pixgallery(paths, caption = captions, caption_valign = "center", caption_halign = "center", layout = "mosaic", border_radius = "10px", shuffle = TRUE)
+```
+
